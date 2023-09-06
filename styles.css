@@ -1,0 +1,144 @@
+table {
+    background-color: #0e5652;
+    color: white;
+    font-size: 50px;
+    opacity: 0.6;
+}
+
+button {
+    /* background-color: black; */
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+
+
+}
+
+.test {
+    /* background-image: url('https://images.unsplash.com/photo-1693370000365-1fb8ae16f9d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80'); */
+    height: 800px;
+    width: 700px;
+    /* border: 1px solid red; */
+    background-position: center;
+    /* border-radius: 100px; */
+    margin: 50px;
+}
+
+.test h1 {
+    border: 2px solid blue;
+}
+
+.test span {
+    border: 2px solid blue;
+    /* display: inline; */
+    padding-bottom: 100px;
+}
+
+h2 {
+    /* text-align: justify; */
+    /* text-transform: lowercase;
+    text-shadow: 5px 5px rgb(222, 204, 204); */
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.testclass {
+    color: blue;
+}
+
+#overrule {
+    color: red;
+}
+
+.second th {
+    border: 3px solid red;
+}
+
+.second td {
+    border: 5px dashed black;
+}
+
+.parent {
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    position: relative;
+    margin-top: 100px;
+    bottom: 100px;
+}
+
+
+.child {
+    border: 3px solid blue;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 70%;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+
+
+
+.container {
+    border: 3px solid red;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    height: 300px;
+    /* width: 100px; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 10px 20px;
+}
+
+.container div {
+    border: 2px solid rgb(136, 136, 185);
+    /* width: 50px; */
+
+}
+
+.container .items1 {
+    align-self: flex-end;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url();
+    background-repeat: no-repeat;
+    min-width: 100vw !important; */
+}
+.image{
+    width: 100%;
+    
+}
+
+.navbar {
+    background-color: aqua;
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.inner-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    width: 700px;
+    /* gap: 20px 0; */
+}
+
+.links {
+    display: flex;
+    gap: 0 50px;
+    /* width: 400px; */
+    /* border: 1px solid green; */
+}
